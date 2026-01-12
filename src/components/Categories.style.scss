@@ -1,0 +1,31 @@
+
+.categories {
+    margin-top: 20px;
+
+    .category-list {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 20px;
+
+        button {
+            cursor: pointer;
+            display: inline-block;
+            background: #f2f2f2;
+            border-radius: 50px;
+            padding: 10px 20px;
+            border: 1px solid transparent;
+            transition: all 600ms ease;
+
+            &:hover {
+                border-color: silver;
+                transform: scale(1.1);
+                transition: all 600ms ease;
+            }
+
+            .active {
+                border: 1px solid transparent;
+            }
+        }
+    }
+}

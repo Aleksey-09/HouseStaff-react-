@@ -1,0 +1,37 @@
+
+
+.features {
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+    span {
+        color: red;
+        font-weight: 600;
+        font-size: 21px;
+        
+    }
+
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .features-box {
+        display: flex;
+        justify-content: space-between;
+
+
+        .feature {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 30%;
+            text-align: center;
+
+            h3 {
+                color: red;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
